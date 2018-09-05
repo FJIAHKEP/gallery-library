@@ -1,0 +1,41 @@
+.win {
+    display: none;
+}
+.overlay {
+    background: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: .5;
+}
+.visible {
+    position: fixed;
+    left: 40%;
+    top: 55%;
+    margin-top: -200px;
+    overflow: hidden;
+    z-index: 2000;
+    width: auto;
+    margin-left: -250px;
+}
+.info {
+    margin: 20px;
+    font-weight:  bold;
+    border: solid 1px black;
+    width:  100px;
+    height:  30px;
+    text-align:  center;
+    line-height: 30px;
+}
+.imgBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img, .ok, .error {
+    cursor: pointer;
+}
